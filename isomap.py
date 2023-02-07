@@ -6,13 +6,13 @@ pygame.init()
 
 # Set screen size and title
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("Isometric Cube")
+pygame.display.set_caption("Isometric Tiles")
 
 # Define some colors
 FILL_COLOR = (0, 128, 0)
 OUTLINE_COLOR = (0, 92, 0)
 
-# Define cube size
+# Base cube size
 cube_size = 100
 
 # Camera
